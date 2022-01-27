@@ -1,0 +1,133 @@
+body {
+    background-color: #dcdcdc;
+    margin: 0px;
+}
+
+.container-geral {
+    background-color: rgb(245, 245, 245);
+    width: 70%;
+    margin-left: 15%;
+    box-shadow: inset 0 0 1em white, 0 0 1em black;
+}
+.header{
+    background-color: #ececec; 
+    width: 100%;
+}
+.imagem-sala{
+    width: 100%;
+}
+.titulo{
+    text-align: center;
+    color: #19979d; 
+    width: 100%; 
+    font-size: 3vw; 
+    margin-top: 0px;
+}
+.apresentacao{
+    text-align: justify; 
+    width: 85%; 
+    margin-left: 8.5%; 
+    font-size: 2.5vw; 
+    color: rgb(49, 49, 49);
+}
+.texto-area{
+    background-color: #19969dbb; 
+    text-align: center; 
+    color: white; 
+    font-size: 2vw;
+}
+.container-trabalhos{
+    display: flex; 
+    width: 100%; 
+    margin-left: 2.5%; 
+    padding-bottom: 4%;
+}
+.imagens-trabalhos{
+    width: 25%; 
+    border-top-right-radius: 20%; 
+    margin-left: 5%;
+}
+.container-textos{
+    background-color: #ececec; 
+    width: 100%; 
+    display: flex;  
+}
+.divisão-textos{
+    display: flex; 
+    width: 30%; 
+    align-items: center; 
+    margin-left: 3%;
+}
+.icones{
+    border-radius: 60%; 
+    width: 20%; 
+    margin-top: 2%;
+}
+.titulo-icones{
+    font-size: 1.5vw; 
+    margin-left: 2%; 
+    color: rgb(49, 49, 49);
+}
+.container-textos{
+    background-color: #ececec; 
+    width: 100%; 
+    display: flex;
+}
+.textos{
+    width: 85%; 
+    margin-left: 3%; 
+    font-size: 1.5vw; 
+    padding-bottom: 3%; 
+    color: rgb(49, 49, 49);
+
+}
+.container-contato{
+    background-color: #19979d ; 
+    height: 100px;
+}
+.footer{
+    height: 100px; 
+    float: left;
+}
+.container-whatsapp1{
+    display: flex; 
+    margin-left: 10px; 
+    padding-top: 5px;
+}
+.imagem-whats{
+    height: 30px;  
+}
+.numeros_whats{
+    text-decoration: none; 
+    color: white; 
+    font-size: 2.5vh; 
+    margin-left: 5px; 
+    padding-top: 5px;
+}
+.container-instagram{
+    display: flex; 
+    margin-top: 2px; 
+    margin-left: 10px; 
+    cursor: pointer;
+}
+.imagem-instagram{
+    height: 28px;
+}
+.instagram{
+    color: white; 
+    font-size: 2.4vh; 
+    margin-left: 5px; 
+    padding-top: 5px;
+}
+.logomarca{
+    height: 100px; 
+    float: right; 
+    display: flex; 
+    justify-content: flex-end;
+    width: 40%;
+}
+.logo-whatsapp-fixo{
+    position:fixed;
+    bottom:40px;
+    right:30px;
+}
