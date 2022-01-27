@@ -118,6 +118,7 @@ body {
     font-size: 2.4vh; 
     margin-left: 5px; 
     padding-top: 5px;
+    text-decoration: none; 
 }
 .logomarca{
     height: 100px; 
